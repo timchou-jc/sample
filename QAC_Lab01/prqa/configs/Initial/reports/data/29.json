@@ -1,0 +1,38 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S3_switch.c",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000009.h", "line": 1, "is_system": false}],
+"metrics": {"COMF": "1.000", "STBME": "0.023", "STBMO": "0.029", "STBMS": "0.027", "STBUG": "0", "STCDN": "0.241", "STDEV": "0.331", "STDIF": "7.729", "STECT": "1", "STEFF": "1985", "STFCO": "1", "STFNC": "1", "STHAL": "104", "STM20": "13", "STM21": "40", "STM22": "4", "STM28": "4", "STM33": "4", "STOPN": "9", "STOPT": "18", "STSCT": "0", "STSHN": "324", "STTDE": "0.751", "STTDO": "0.653", "STTDS": "0.708", "STTLN": "10", "STTOT": "54", "STTPP": "15", "STVAR": "8", "STVOL": "257", "STZIP": "105", "VOCF": "1.963"},
+"entities": [
+{"type": "function",
+"name": "vcast_S3_switch",
+"line": 2,
+"metrics": {"NPATH": "2", "STAKI": "3", "STAV1": "3.125", "STAV2": "5.000", "STAV3": "5.000", "STBAK": "0", "STCAL": "1", "STCYC": "2", "STELF": "0", "STFDN": "5", "STFDT": "11", "STFN1": "20", "STFN2": "5", "STGTO": "0", "STKDN": "0.000", "STKNT": "0", "STLCT": "0", "STLIN": "8", "STLOP": "0", "STM07": "1", "STM19": "0", "STMCC": "0 (2:2)", "STMIF": "1", "STPAR": "2", "STPBG": "0", "STPDN": "0.286", "STPTH": "2", "STST1": "8", "STST2": "5", "STST3": "5", "STSUB": "1", "STUNV": "0", "STXLN": "7"},
+"relationships": [
+{"type": "CALL",
+"entity": "VCAST_DRIVER_9",
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S3_switch.c",
+"line": 5,
+"info": ""},
+{"type": "REFERS_TO",
+"entity": "VCAST_DRIVER_9",
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S3_switch.c",
+"line": 5,
+"info": "ReadFrom"},
+{"type": "REFERS_TO",
+"entity": "vCAST_TOOL_ERROR",
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S3_switch.c",
+"line": 8,
+"info": "WrittenTo"}],
+"plot": [
+{"edge": [0.2,1,1.2,1], "color": "BLACK"},
+{"edge": [1.2,1,1.7,0], "color": "BLACK"},
+{"edge": [1.7,0,2.2,0], "color": "BLACK"},
+{"edge": [1.2,1,4.2,1], "color": "BLACK"},
+{"edge": [2.2,0,3.2,0], "color": "BLACK"},
+{"edge": [3.2,0,6.7,0], "color": "BLACK"},
+{"edge": [6.7,0,7.2,1], "color": "BLACK"},
+{"edge": [4.2,1,5.2,1], "color": "BLACK"},
+{"edge": [5.2,1,7.2,1], "color": "BLACK"},
+{"edge": [7.2,1,9.2,1], "color": "BLACK"}]}]
+}

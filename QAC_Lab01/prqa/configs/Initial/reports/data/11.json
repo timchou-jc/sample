@@ -1,0 +1,15 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/B0000007.c",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000007.h", "line": 307, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/VCAST_STRING.h", "line": 308, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/vcast_basics.h", "line": 309, "is_system": false}],
+"metrics": {"COMF": "0.475", "STBME": "10.774", "STBMO": "6.263", "STBMS": "8.345", "STBUG": "14", "STCDN": "0.741", "STDEV": "266.704", "STDIF": "21.834", "STECT": "12", "STEFF": "1600222", "STFCO": "35", "STFNC": "42", "STHAL": "7335", "STM20": "2500", "STM21": "5096", "STM22": "625", "STM28": "297", "STM33": "58", "STOPN": "730", "STOPT": "65", "STSCT": "3", "STSHN": "29556", "STTDE": "5.349", "STTDO": "5.020", "STTDS": "5.253", "STTLN": "349", "STTOT": "7607", "STTPP": "2493", "STVAR": "388", "STVOL": "73292", "STZIP": "5768", "VOCF": "9.555"},
+"entities": [
+{"type": "class",
+"name": "FILES",
+"line": 228},
+{"type": "class",
+"name": "Vcast_File_Position",
+"line": 219}]
+}

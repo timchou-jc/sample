@@ -1,0 +1,13 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000009.c",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_driver_prefix.c", "line": 62, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_exp_inst_driver.c", "line": 65, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_inst.c", "line": 51, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_inst_appendix.c", "line": 57, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_inst_prefix.c", "line": 45, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_vcast.c", "line": 54, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/vcast_basics.h", "line": 22, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/vcast_uc_prototypes.h", "line": 21, "is_system": false}],
+"metrics": {"COMF": "0.644", "STBME": "3.739", "STBMO": "2.481", "STBMS": "3.108", "STBUG": "9", "STCDN": "0.291", "STDEV": "134.937", "STDIF": "23.082", "STECT": "0", "STEFF": "809623", "STFCO": "0", "STFNC": "0", "STHAL": "3780", "STM20": "1117", "STM21": "2839", "STM22": "407", "STM28": "262", "STM33": "188", "STOPN": "404", "STOPT": "50", "STSCT": "0", "STSHN": "14523", "STTDE": "3.812", "STTDO": "3.531", "STTDS": "3.718", "STTLN": "1", "STTOT": "3974", "STTPP": "1032", "STVAR": "197", "STVOL": "35077", "STZIP": "3040", "VOCF": "8.714"}
+}

@@ -1,0 +1,4 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_inst_appendix.c",
+"metrics": {"COMF": "0.125", "STBME": "0.029", "STBMO": "0.035", "STBMS": "0.033", "STBUG": "0", "STCDN": "1.341", "STDEV": "0.145", "STDIF": "5.115", "STECT": "6", "STEFF": "869", "STFCO": "0", "STFNC": "0", "STHAL": "62", "STM20": "10", "STM21": "29", "STM22": "8", "STM28": "1", "STM33": "0", "STOPN": "10", "STOPT": "9", "STSCT": "0", "STSHN": "192", "STTDE": "0.805", "STTDO": "0.702", "STTDS": "0.760", "STTLN": "8", "STTOT": "40", "STTPP": "18", "STVAR": "8", "STVOL": "170", "STZIP": "67", "VOCF": "2.053"}
+}

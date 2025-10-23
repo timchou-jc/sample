@@ -1,0 +1,31 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000002.h",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000004.h", "line": 94, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000008.h", "line": 3, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/VCAST_STRING.h", "line": 96, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/vcast_basics.h", "line": 10, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/vcast_c_options.h", "line": 271, "is_system": false}],
+"entities": [
+{"type": "class",
+"name": "vCAST_COMMAND_TYPE",
+"line": 149},
+{"type": "class",
+"name": "vCAST_HIST_ENTRY",
+"line": 165},
+{"type": "class",
+"name": "vCAST_ORDER_ENTRY",
+"line": 170},
+{"type": "class",
+"name": "vCAST_globals_display_type",
+"line": 49},
+{"type": "class",
+"name": "vCAST_testcase_options_type",
+"line": 32},
+{"type": "class",
+"name": "vcRangeDataType",
+"line": 195},
+{"type": "class",
+"name": "vcTypeOfRangeExpression",
+"line": 178}]
+}

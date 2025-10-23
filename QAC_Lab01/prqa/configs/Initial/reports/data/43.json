@@ -1,0 +1,4 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/manager_inst_prefix.c",
+"metrics": {"COMF": "0.000", "STBME": "0.002", "STBMO": "0.004", "STBMS": "0.003", "STBUG": "0", "STCDN": "0.000", "STDEV": "0.000", "STDIF": "0.000", "STECT": "0", "STEFF": "0", "STFCO": "0", "STFNC": "0", "STHAL": "0", "STM20": "0", "STM21": "1", "STM22": "0", "STM28": "0", "STM33": "0", "STOPN": "0", "STOPT": "1", "STSCT": "0", "STSHN": "0", "STTDE": "0.346", "STTDO": "0.292", "STTDS": "0.321", "STTLN": "0", "STTOT": "2", "STTPP": "2", "STVAR": "0", "STVOL": "0", "STZIP": "1", "VOCF": "1.000"}
+}

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is API generated -->
+<dependencies location="C:/Users/AUTOSAR/Desktop/QAC_Lab01" version="1">
+ <toolchain_history>
+  <component whole_project="no" name="qac" language="C" version="11.3.0"/>
+  <component whole_project="no" name="qacpp" language="C++" version="6.3.0"/>
+ </toolchain_history>
+ <baseline_history baseline="OFF"/>
+ <checksums>
+  <file hash="b3f6ae9d4cf7dae4ca930bc04c3ed75f" name="${SOURCE_ROOT}\prqa\configs\Initial\output\c-f9e315658491024e12e0\manager.c.qac.via"/>
+  <file hash="23aeeb6a0f8ba539cc3c237d5ee948f4" tu_hash="23aeeb6a0f8ba539cc3c237d5ee948f4" anatime="231" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c"/>
+  <file hash="83632a54cb52ee6e13b57cba6bb54c89" name="${SOURCE_ROOT}\prqa\configs\Initial\output\c-f9e315658491024e12e0\TempTestA.c.qac.via"/>
+  <file hash="bb6d601c4023c0947a236d67e237ab38" name="${SOURCE_ROOT}\prqa\configs\Initial\output\c-f9e315658491024e12e0\database.c.qac.via"/>
+  <file hash="dda4e7f9d0b6f9aecefde5a4184d2932" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_vcast.c.qac.via"/>
+  <file hash="cabdb2d06f8002a2098f9ecbc0c1f98a" name="${SOURCE_ROOT}\prqa\configs\Initial\output\c-f9e315658491024e12e0\whitebox.c.qac.via"/>
+  <file hash="6057f044ffb6fb996345ebf0d4d34232" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h"/>
+  <file hash="c1c99c1649135898bd73efd54de900ae" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_mod-output.c.qac.via"/>
+  <file hash="1881b80eb76cc39977c890547592ec0c" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\B0000002.c.qac.via"/>
+  <file hash="e50b5140b8745320c8fc3d6b1cf56e4f" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\c_cover_io.c.qac.via"/>
+  <file hash="ee5d3715f6e3ff0cfe1c63c7a479c22d" name="${SOURCE_ROOT}\prqa\configs\Initial\output\c-f9e315658491024e12e0\manager_driver.c.qac.via"/>
+  <file hash="acbf7a7d5a6ffa364dbd7621912767f4" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst_prefix.c.qac.via"/>
+  <file hash="c5220f637fb38157a7b1c2b6b6b6281a" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_appendix.c.qac.via"/>
+  <file hash="380f5308192ea6084d191cfb3a8486a7" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\B0000001.c.qac.via"/>
+  <file hash="2c5145532527fd8c7ea121e7ebdc7f38" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\B0000004.c.qac.via"/>
+  <file hash="a8065f7f1d25aef95f6244c4a0237c91" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h"/>
+  <file hash="98a99571104059474df95dfaf9b96b9e" tu_hash="98a99571104059474df95dfaf9b96b9e" anatime="213" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c"/>
+  <file hash="19399ef0cda3cd6061b766fd6acd1119" tu_hash="88a56cc0f3b637935b7947597cc3f84c" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c"/>
+  <file hash="f88746e76375cfc2406e7f428fc9e54e" tu_hash="f88746e76375cfc2406e7f428fc9e54e" anatime="270" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c"/>
+  <file hash="380242935b6d1a7aa43bfa603bf12fa1" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\B0000007.c.qac.via"/>
+  <file hash="7901f0b636368a9cb43659ae769325d6" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\B0000008.c.qac.via"/>
+  <file hash="25487d42c974438cbb0b31d7adc9809c" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\B1_switch.c.qac.via"/>
+  <file hash="6e6ea1fb75ec564d8f548ebf2e5b7038" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h"/>
+  <file hash="3129a9d5d329a6f246f84c588e27913d" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h"/>
+  <file hash="7a1720d2220583ec91f774bc8222c26c" tu_hash="c7ee0b9d60db5819c493d89b3354dd14" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c"/>
+  <file hash="5ea2156b403c3a25279944391c5d0c57" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\S3_switch.c.qac.via"/>
+  <file hash="c79abb4504c5afef82cf4fb200ecd0be" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\HeapAndStackMonitor.c.qac.via"/>
+  <file hash="9d8493bc9227f6a779d88e2be8f0a615" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h"/>
+  <file hash="0f6208bfea15a9dfbd381c0b03e6fd14" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\S0000008.c.qac.via"/>
+  <file hash="bfb494acd238c108345ddc23bfbd7746" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\B4_switch.c.qac.via"/>
+  <file hash="ddf6be0667b3be6a38959daa1b233bda" tu_hash="15454ca9006d1bae2255cc7e1bb5703e" anatime="220" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\c\manager.c"/>
+  <file hash="81051bcc2cf1bedf378224b0a93e2877" tu_hash="81051bcc2cf1bedf378224b0a93e2877" anatime="219" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c"/>
+  <file hash="4b32d0a30bf5420e17d9e9e5af2d8457" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\I0000009.c.qac.via"/>
+  <file hash="bb540aab41506bdf4bc3eae7a789c7a1" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\S0000003.c.qac.via"/>
+  <file hash="185c7875fd0be95cb1f54caba93e3216" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\S0000008.tu.c.qac.via"/>
+  <file hash="1cbd6b2ad387c660c5ff7a57bc90b4fd" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\S0000009.c.qac.via"/>
+  <file hash="7b54a8f742392cc779bd8c7544726d0f" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1016.c.qac.via"/>
+  <file hash="80c94126066002bfbd7604aa412842d0" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\USER_GLOBALS_VCAST_uc.c.qac.via"/>
+  <file hash="d21b1bd9a74450f85e4231e179302ad7" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager.tu.c.qac.via"/>
+  <file hash="21ceb23ce15351476d1ab41aae9ce3d8" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_prefix.c.qac.via"/>
+  <file hash="46cbf2733b7b7ef7730916d358c97ad0" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst_appendix.c.qac.via"/>
+  <file hash="a7d346c01d274c7f3b0f93420db36798" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_driver_prefix.c.qac.via"/>
+  <file hash="3464c7f0627faa3a48f57a17ea4240c2" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h"/>
+  <file hash="f3e3b0b9c10e201f01eb117444ff6253" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_exp_inst_driver.c.qac.via"/>
+  <file hash="3ae7a75512d08fc3bf947debcf9cf028" tu_hash="52548e8f8a436c832653a54693253968" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c"/>
+  <file hash="5d3f12f1e3f7ea0382f75d3505b875f8" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1008.c.qac.via"/>
+  <file hash="a3b04ddc9ab85fd2e594140cbdec3ebf" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst.c.qac.via"/>
+  <file hash="b1086264db7d674e01dbbd248d5d531b" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\manager_uc.c.qac.via"/>
+  <file hash="040350eb553898dc144a2979aafe9cc9" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h"/>
+  <file hash="de6b08d2e6f863ba16a83c703bd21548" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_configure_stub.c.qac.via"/>
+  <file hash="8fa3d7030789cad96aa52e21107363ca" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1000.c.qac.via"/>
+  <file hash="5c942a52a1bf5555771c3eb7cb465b35" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1001.c.qac.via"/>
+  <file hash="557dbce9725c0d07bee51587be944d38" tu_hash="82ebf3b5739070950ca9683c4ba81c80" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c"/>
+  <file hash="044f4ebc06f30b8ec114989e2e6ba499" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1003.c.qac.via"/>
+  <file hash="a63c4bf371176557572948c57134a45b" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1011.c.qac.via"/>
+  <file hash="c8b3f2af67dea5c41ac051d400964be4" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\c\ctypes.h"/>
+  <file hash="864bff998fd378406e671b6863336ac6" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_stubs_8.c.qac.via"/>
+  <file hash="acf0e668d476268fcfc744bd68df6020" tu_hash="acf0e668d476268fcfc744bd68df6020" anatime="188" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c"/>
+  <file hash="d690fcd45b22b00dc1e9d5164df72331" name="${SOURCE_ROOT}\prqa\configs\Initial\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_stubs_9.c.qac.via"/>
+  <file hash="1a886ff0433fe7e93066d71339acb8b6" tu_hash="1a886ff0433fe7e93066d71339acb8b6" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\c\TempTestA.c"/>
+  <file hash="4c97a4e9e8d538d7d5f009c57ec9a0b6" tu_hash="842456468f0b9d13cf3058117e5feb52" anatime="207" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\c\database.c"/>
+  <file hash="a9611d3d28bf3d0e52731ca5f2910a69" tu_hash="61d2ef924f6198ca48b34d71f207418d" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\c\manager_driver.c"/>
+  <file hash="44c732f0ac69dcbdeeb126dc22e34581" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h"/>
+  <file hash="14b82d6b98453562b458c035c7a6547a" tu_hash="14b82d6b98453562b458c035c7a6547a" anatime="201" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\c\whitebox.c"/>
+  <file hash="3a04bc808556034433fa00064fd14f07" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h"/>
+  <file hash="5addaaaa92dc4722146b917900ef82d2" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h"/>
+  <file hash="445efe9baf80fba05d0dbf10283a599b" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h"/>
+  <file hash="942ee218bf44c237744368ee07c1917e" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h"/>
+  <file hash="7237505330d529f157693956566bc5e0" tu_hash="e035b3aca8a6844c3bf17d94b999f676" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c"/>
+  <file hash="487e8b1a9ed92cca6465c624e16a3f89" tu_hash="8cb62d04686ee3094aaa2ca023142136" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c"/>
+  <file hash="5b6d059142f898e4f810ae6f2ef8c5e0" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h"/>
+  <file hash="4c4db68bb03b74dc7b4d34cf9276efce" tu_hash="c2e35049671b92b552225b31179c3930" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c"/>
+  <file hash="a3fd050278ecd6f3542d0da5a33a65f5" tu_hash="1f942a6eabc4352156c50e73ac3b2af6" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c"/>
+  <file hash="552a37b2bcd731473228e054d80f4f5a" tu_hash="552a37b2bcd731473228e054d80f4f5a" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c"/>
+  <file hash="81ddee5d2ce87235c19b5b94cc72e79a" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h"/>
+  <file hash="167f8b7575c2b9cf9397a669f6517def" tu_hash="167f8b7575c2b9cf9397a669f6517def" anatime="302" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c"/>
+  <file hash="10c35de2c8e2f45a171b2f4f46985dbc" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h"/>
+  <file hash="9fe922603f94ec5f2c5cfb6469686cf7" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h"/>
+  <file hash="99a07e771e497c08982317f3d50b1a7c" tu_hash="686b7c03dfea7d62c1a8dda717d6b11b" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c"/>
+  <file hash="f66a091a935859fc259a2ff796f63353" tu_hash="fde1488d9853ccec870603f27db17972" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c"/>
+  <file hash="ec6a118bce0202200ece6cc39608354e" tu_hash="ec6a118bce0202200ece6cc39608354e" anatime="220" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c"/>
+  <file hash="ad476755d111dc54b371aae5b181c6ec" tu_hash="5ee7e589e0e1f8ff43e87c6fbbfd8565" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c"/>
+  <file hash="999d075ba5648221d4e23ea5f563cdf9" tu_hash="54f5ec58ec2f38fc8b9acf6c21b2bb56" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c"/>
+  <file hash="a643fc7b4d4c9581cbd5fc80c7bd4390" tu_hash="a643fc7b4d4c9581cbd5fc80c7bd4390" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c"/>
+  <file hash="88a016b85f025cf756b82577127ca9c4" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h"/>
+  <file hash="aba0f9f8f2fc997ef79fabb485df89be" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h"/>
+  <file hash="d3d89787af22e105c09fb56c8f124224" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h"/>
+  <file hash="1b6a7ec096d00bf02775d3f1cc3b3f53" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h"/>
+  <file hash="85412e5386e1f9296f6950d908d0aa8d" tu_hash="85412e5386e1f9296f6950d908d0aa8d" anatime="260" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c"/>
+  <file hash="223b6a822f5b0d5299474b1c671ef310" tu_hash="223b6a822f5b0d5299474b1c671ef310" anatime="251" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c"/>
+  <file hash="d36c99f2b0247569afe29beecbc43d99" tu_hash="aa078d3e2e8528f4a0d174cd1b653f3a" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c"/>
+  <file hash="dddadf5ac12a1528b0f8e7d75d6214dd" tu_hash="dddadf5ac12a1528b0f8e7d75d6214dd" anatime="316" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c"/>
+  <file hash="81051bcc2cf1bedf378224b0a93e2877" tu_hash="81051bcc2cf1bedf378224b0a93e2877" anatime="219" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c"/>
+  <file hash="31fe46db97f35ce820658f31aef4bb85" tu_hash="31fe46db97f35ce820658f31aef4bb85" anatime="219" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c"/>
+  <file hash="81051bcc2cf1bedf378224b0a93e2877" tu_hash="81051bcc2cf1bedf378224b0a93e2877" anatime="188" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c"/>
+  <file hash="417f928c782b210bb5d266c5fac3c7ac" tu_hash="417f928c782b210bb5d266c5fac3c7ac" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c"/>
+  <file hash="68b329da9893e34099c7d8ad5cb9c940" tu_hash="68b329da9893e34099c7d8ad5cb9c940" anatime="236" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c"/>
+  <file hash="39212ce5560a43572677d5a9f279ba8a" tu_hash="39212ce5560a43572677d5a9f279ba8a" anatime="183" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c"/>
+  <file hash="85412e5386e1f9296f6950d908d0aa8d" tu_hash="85412e5386e1f9296f6950d908d0aa8d" anatime="415" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c"/>
+  <file hash="47524f8cc7869496b75d41691d9c7bce" tu_hash="bfd5096ba4f35b54f7333e2b92559e80" anatime="347" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c"/>
+  <file hash="1df097f66ea9e575c5ecd6ab86dad317" tu_hash="08b5db5f6ec4fedbe7b91ad59d6fa329" anatime="334" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c"/>
+  <file hash="1df097f66ea9e575c5ecd6ab86dad317" tu_hash="08b5db5f6ec4fedbe7b91ad59d6fa329" anatime="237" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c"/>
+  <file hash="1df097f66ea9e575c5ecd6ab86dad317" tu_hash="08b5db5f6ec4fedbe7b91ad59d6fa329" anatime="227" name="C:\Users\AUTOSAR\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c"/>
+ </checksums>
+</dependencies>

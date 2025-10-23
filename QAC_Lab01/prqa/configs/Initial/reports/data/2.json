@@ -1,0 +1,28 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c/ctypes.h",
+"entities": [
+{"type": "class",
+"name": "beverages",
+"line": 26},
+{"type": "class",
+"name": "boolean",
+"line": 21},
+{"type": "class",
+"name": "desserts",
+"line": 25},
+{"type": "class",
+"name": "entrees",
+"line": 24},
+{"type": "class",
+"name": "order_type",
+"line": 28},
+{"type": "class",
+"name": "salads",
+"line": 23},
+{"type": "class",
+"name": "soups",
+"line": 22},
+{"type": "class",
+"name": "table_data_type",
+"line": 40}]
+}

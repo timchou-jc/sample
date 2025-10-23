@@ -1,0 +1,6 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/I0000009.c",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000009.c", "line": 2, "is_system": false}],
+"metrics": {"COMF": "0.000", "STBME": "0.002", "STBMO": "0.004", "STBMS": "0.003", "STBUG": "0", "STCDN": "0.000", "STDEV": "0.005", "STDIF": "2.524", "STECT": "0", "STEFF": "30", "STFCO": "0", "STFNC": "0", "STHAL": "5", "STM20": "1", "STM21": "4", "STM22": "0", "STM28": "0", "STM33": "0", "STOPN": "1", "STOPT": "3", "STSCT": "0", "STSHN": "14", "STTDE": "0.346", "STTDO": "0.292", "STTDS": "0.321", "STTLN": "0", "STTOT": "6", "STTPP": "2", "STVAR": "1", "STVOL": "12", "STZIP": "8", "VOCF": "1.250"}
+}

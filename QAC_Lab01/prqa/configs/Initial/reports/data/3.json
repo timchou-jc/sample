@@ -1,0 +1,34 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c/database.c",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c/ctypes.h", "line": 1, "is_system": false}],
+"metrics": {"COMF": "0.000", "STBME": "0.020", "STBMO": "0.025", "STBMS": "0.023", "STBUG": "0", "STCDN": "0.000", "STDEV": "0.211", "STDIF": "6.175", "STECT": "1", "STEFF": "1267", "STFCO": "0", "STFNC": "2", "STHAL": "77", "STM20": "17", "STM21": "28", "STM22": "3", "STM28": "0", "STM33": "0", "STOPN": "8", "STOPT": "14", "STSCT": "0", "STSHN": "240", "STTDE": "0.711", "STTDO": "0.616", "STTDS": "0.669", "STTLN": "9", "STTOT": "46", "STTPP": "13", "STVAR": "8", "STVOL": "205", "STZIP": "81", "VOCF": "2.045"},
+"entities": [
+{"type": "function",
+"name": "Get_Table_Record",
+"line": 5,
+"metrics": {"NPATH": "1", "STAKI": "1", "STAV1": "10.000", "STAV2": "10.000", "STAV3": "10.000", "STBAK": "0", "STCAL": "0", "STCYC": "1", "STELF": "0", "STFDN": "2", "STFDT": "8", "STFN1": "8", "STFN2": "2", "STGTO": "0", "STKDN": "0.000", "STKNT": "0", "STLCT": "0", "STLIN": "1", "STLOP": "0", "STM07": "1", "STM19": "1", "STMCC": "0 (1:1)", "STMIF": "0", "STPAR": "1", "STPBG": "0", "STPDN": "1.000", "STPTH": "1", "STST1": "1", "STST2": "1", "STST3": "1", "STSUB": "0", "STUNV": "0", "STXLN": "1"},
+"relationships": [
+{"type": "REFERS_TO",
+"entity": "Table_Data",
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c/database.c",
+"line": 7,
+"info": "ReadFrom"}],
+"plot": [
+{"edge": [0.2,1,1.2,1], "color": "BLACK"},
+{"edge": [1.2,1,3.2,1], "color": "BLACK"}]},
+{"type": "function",
+"name": "Update_Table_Record",
+"line": 10,
+"metrics": {"NPATH": "1", "STAKI": "1", "STAV1": "9.000", "STAV2": "9.000", "STAV3": "9.000", "STBAK": "0", "STCAL": "0", "STCYC": "1", "STELF": "0", "STFDN": "3", "STFDT": "6", "STFN1": "6", "STFN2": "3", "STGTO": "0", "STKDN": "0.000", "STKNT": "0", "STLCT": "0", "STLIN": "1", "STLOP": "0", "STM07": "1", "STM19": "0", "STMCC": "0 (1:1)", "STMIF": "0", "STPAR": "2", "STPBG": "0", "STPDN": "1.000", "STPTH": "1", "STST1": "1", "STST2": "1", "STST3": "1", "STSUB": "0", "STUNV": "0", "STXLN": "1"},
+"relationships": [
+{"type": "REFERS_TO",
+"entity": "Table_Data",
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c/database.c",
+"line": 12,
+"info": "WrittenTo"}],
+"plot": [
+{"edge": [0.2,1,1.2,1], "color": "BLACK"},
+{"edge": [1.2,1,2.2,1], "color": "BLACK"},
+{"edge": [2.2,1,4.2,1], "color": "BLACK"}]}]
+}

@@ -1,0 +1,4 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c/TempTestA.c",
+"metrics": {"COMF": "0.000", "STBME": "0.041", "STBMO": "0.048", "STBMS": "0.046", "STBUG": "0", "STCDN": "0.000", "STDEV": "0.557", "STDIF": "7.553", "STECT": "7", "STEFF": "3343", "STFCO": "1", "STFNC": "1", "STHAL": "139", "STM20": "33", "STM21": "51", "STM22": "8", "STM28": "0", "STM33": "0", "STOPN": "18", "STOPT": "16", "STSCT": "0", "STSHN": "452", "STTDE": "0.899", "STTDO": "0.787", "STTDS": "0.851", "STTLN": "14", "STTOT": "87", "STTPP": "24", "STVAR": "13", "STVOL": "443", "STZIP": "140", "VOCF": "2.471"}
+}

@@ -1,0 +1,4 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/HeapAndStackMonitor.c",
+"metrics": {"COMF": "0.702", "STBME": "0.620", "STBMO": "0.515", "STBMS": "0.581", "STBUG": "2", "STCDN": "0.953", "STDEV": "13.356", "STDIF": "21.940", "STECT": "0", "STEFF": "80133", "STFCO": "0", "STFNC": "0", "STHAL": "491", "STM20": "143", "STM21": "421", "STM22": "47", "STM28": "33", "STM33": "2", "STOPN": "55", "STOPT": "34", "STSCT": "0", "STSHN": "1714", "STTDE": "2.146", "STTDO": "1.943", "STTDS": "2.068", "STTLN": "0", "STTOT": "564", "STTPP": "231", "STVAR": "31", "STVOL": "3652", "STZIP": "451", "VOCF": "6.337"}
+}

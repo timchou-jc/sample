@@ -1,0 +1,9 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000007.h",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/vcast_basics.h", "line": 52, "is_system": false}],
+"entities": [
+{"type": "class",
+"name": "vcast_env_file_kind",
+"line": 163}]
+}

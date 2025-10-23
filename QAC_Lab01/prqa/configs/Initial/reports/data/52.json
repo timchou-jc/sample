@@ -1,0 +1,4 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/vcast_preprocess.11216.1000.c",
+"metrics": {"COMF": "0.125", "STBME": "0.054", "STBMO": "0.060", "STBMS": "0.059", "STBUG": "0", "STCDN": "0.662", "STDEV": "0.345", "STDIF": "6.564", "STECT": "6", "STEFF": "2073", "STFCO": "0", "STFNC": "0", "STHAL": "112", "STM20": "22", "STM21": "43", "STM22": "8", "STM28": "1", "STM33": "0", "STOPN": "14", "STOPT": "15", "STSCT": "0", "STSHN": "357", "STTDE": "0.980", "STTDO": "0.861", "STTDS": "0.929", "STTLN": "8", "STTOT": "65", "STTPP": "30", "STVAR": "11", "STVOL": "316", "STZIP": "114", "VOCF": "2.241"}
+}

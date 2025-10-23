@@ -1,0 +1,10 @@
+{
+"file": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/B0000001.h",
+"includes": [
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000002.h", "line": 20, "is_system": false},
+{"path": "C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS/S0000007.h", "line": 18, "is_system": false}],
+"entities": [
+{"type": "class",
+"name": "VCAST_CSU_Data_Item",
+"line": 246}]
+}

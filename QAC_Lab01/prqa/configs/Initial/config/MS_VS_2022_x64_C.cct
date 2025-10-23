@@ -1,0 +1,188 @@
+*{
+* "PLATFORM" : "PLATFORM_WIN64",
+* "COMPILER_HIERARCHY" : "Microsoft_Visual_Studio",
+* "COMPILER_NAME": "Visual_C++_2022",
+* "COMPILER_VERSION": "19-3",
+* "HOST": "x64",
+* "TARGET": "x64",
+* "SOURCE_LANGUAGE": "C",
+* "COMPILER_CMD": "cl",
+* "ADDITIONAL_INCLUDES":"DATA/MS_VS_2022_x64_C/Stub",
+* "INCLUDE_LIST": [
+*   {"INCLUDE_STRUCTURE": {
+*       "INCLUDE_TYPE": "MasterScript",
+*       "INCLUDE_VALUE": "DATA/common/msvc.py"
+*       }
+*   },
+*   {"INCLUDE_STRUCTURE": {
+*       "INCLUDE_TYPE": "HelperScript",
+*       "INCLUDE_VALUE": "DATA/core_qaf/qaf.py"
+*       }
+*   }
+* ],
+* "SYNCHRONISATION" : {
+*   "INCLUDE_FLAGS":"/I",
+*   "DEFINE_FLAGS":"/D",
+*   "FILE_FILTER":"stdafx.c,pch.c",
+*   "SETTINGS_FILE_OPTIONS":{
+*       "FLAG":"@",
+*       "EXTENSION":".rsp",
+*       "LITERAL_QUOTES":"true"
+*       }
+*   }
+*}
+
+-it "size_t=unsigned long long"
+-it "ptrdiff_t=unsigned long long"
+-it "wchar_t=unsigned short"
+
+-d "_PRL_STRINGIFY(x)=#x"
+
+-d "_VARIANT_BOOL=VARIANT_BOOL"
+-d "__FUNCTION__=_PRL_STRINGIFY(function)"
+-d "__FUNCDNAME__=__FUNCTION__"
+-d "__FUNCSIG__=__FUNCTION__"
+-d "__func__=__FUNCTION__"
+-d _INTEGRAL_MAX_BITS=64
+-d _MSC_EXTENSIONS=1
+-d _M_AMD64=100
+-d _M_X64=100
+-d _WIN32=1
+-d _WIN64=1
+-d _AMD64_=1
+-d __COUNTER__=0
+
+*
+* types
+*
+
+-d "__int16=short"
+-d "__int32=int"
+-d "__int64=unsigned long long"
+-d "__int8=char"
+
+
+-s int=32
+-a int=4
+-s char=8
+-a char=1
+-u-
+-s short=16
+-a short=2
+-s long=32
+-a long=4
+-s longlong=64
+-a longlong=8
+-s float=32
+-a float=4
+-s double=64
+-a double=8
+-s ldouble=64
+-a ldouble=8
+-s dataptr=64
+-a dataptr=8
+-s codeptr=64
+-a codeptr=8
+
+
+*
+* Compiler behaviour
+*
+
+-xn 31
+-na 31
+-ar+
+-bits+
+-ex ansipc
+-ex c++
+-ex dollar
+-ex longlong
+-ex asm
+-ex pc
+-ex longlong
+
+-fpc+
+-sl-
+-xc-
+
+*
+* Calling Conventions
+*
+-d "cdecl=__cdecl"
+-d "_cdecl=__cdecl"
+-d "__cdecl="
+-d "__clrcall="
+-d "_stdcall="
+-d "__stdcall="
+-d "_fastcall="
+-d "__fastcall="
+-d "_syscall="
+-d "__syscall="
+-d "_oldcall="
+-d "__oldcall="
+-d "__thiscall="
+-d "_vectorcall="
+-d "__vectorcall="
+
+*
+* exceptions
+*
+
+-d "__alignof=1 prl_ignore_paren"
+-d "__asm=asm"
+-d "_asm=asm"
+-d "__declspec=_ignore_paren"
+-d "inline=_ignore_modification"
+-d "__forceinline="
+-d "__inline=inline"
+-d "__pragma=_ignore_paren"
+-d "__ptr32="
+-d "__ptr64="
+-d "__sptr="
+-d "__unaligned="
+-d "__uptr="
+-d "__w64="
+-d "_declspec=_ignore_paren"
+-d "_inline=inline"
+-d "_prl_null_expression=0 prl_ignore_paren"
+-d __assume=
+-d "__except=_ignore_paren"
+-d __finally=
+-d __has_nothrow_assign=
+-d __has_nothrow_constructor=
+-d __has_nothrow_copy=
+-d __has_nothrow_move_assign=
+-d __has_trivial_assign=
+-d __has_trivial_constructor=
+-d __has_trivial_destructor=
+-d __has_trivial_move_assign=
+-d __has_trivial_move_constructor=
+-d __has_virtual_destructor=
+-d __identifier=
+-d __interface=
+-d __is_abstract=
+-d __is_base_of=
+-d __is_class=
+-d __is_constructible=
+-d __is_convertible_to=
+-d __is_empty=
+-d __is_enum=
+-d __is_literal_type=
+-d __is_nothrow_constructible=
+-d __is_pod=
+-d __is_polymorphic=
+-d __is_ref_class=
+-d __is_standard_layout=
+-d __is_trivial=
+-d __is_trivially_copyable=
+-d __is_union=
+-d __is_value_class=
+-d __is_final=
+-d __leave=
+-d __try=
+-d __underlying_type=
+-d __uuidof=
+-d _uuidof=
+-d prl_ignore_paren=_ignore_paren
+-d static_assert=
+-d __section=_ignore_paren

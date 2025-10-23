@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is API generated -->
+<settings version="2">
+ <setting name="create_CCT" value="no"/>
+ <setting name="last_config" value="Initial"/>
+ <setting name="sync_details" value="C:/ProgramData/Jenkins/.jenkins/workspace/Vestor Cast Lab01"/>
+ <setting name="sync_type" value="MONITOR"/>
+ <setting name="sync_working_directory" value="C:\ProgramData\Jenkins\.jenkins\workspace\Vestor Cast Lab01"/>
+ <component_directories/>
+ <root_paths/>
+ <editor_settings/>
+ <analysis_settings/>
+ <file_tree_settings/>
+ <log_settings/>
+ <feedback_settings/>
+ <license_servers/>
+</settings>

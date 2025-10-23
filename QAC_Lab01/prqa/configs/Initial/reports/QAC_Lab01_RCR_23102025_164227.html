@@ -1,0 +1,799 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+
+html {
+    height:100%; /* fix height to 100% for IE */
+    width: 100%;
+    max-height:100%; /* fix height for other browsers */
+    padding:0; /*remove padding */
+    margin:0; /* remove margins */
+    border:0; /* remove borders */
+}
+
+.ptitle h2 {
+    text-align: center
+}
+
+.stitle {
+    font-size: 100%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.headcontent {
+    font-size: 90%;
+    max-height: 250px;
+}
+
+.toc {
+    display: inline-block;
+}
+
+.summary {
+    margin:0;
+    padding:0;
+    background:transparent;
+    height:100%;
+    margin-right:100px;
+    padding-right:100px;
+    padding-top:10px;
+    display: inline-block;
+    float:right;
+}
+
+.toc {
+    margin:0;
+    padding:0;
+    background:transparent;
+    height:100%;
+    margin-left:100px;
+    padding-left:100px;
+    padding-top:10px;
+}
+
+.toc ul { list-style-type:none }
+
+.toc ol li a { padding-left:20px;  color: #0000EE;; text-decoration:none;}
+.toc ol li a:hover { color:#BABABA;  }
+a:hover { color:#BABABA;  }
+.diagrams { display: inline-block;}
+
+.rgtable td { width:70px; text-align:center;}
+
+
+td {
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+
+.pie-container {
+box-sizing: border-box;
+width: 850px;
+height: 450px;
+padding: 20px 15px 15px 15px;
+margin: 15px auto 30px auto;
+border: 1px solid #ddd;
+background: #fff;
+background: linear-gradient(#f6f6f6 0, #fff 50px);
+background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+background: -ms-linear-gradient(#f6f6f6 0, #fff 50px);
+background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+-o-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+-ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+-moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.pie-placeholder {
+width: 100%;
+height: 100%;
+font-size: 14px;
+line-height: 1.2em;
+}
+
+.padded { padding: 0 10px; }
+
+.paddedleft { padding: 0 10px; text-align: left; }
+.paddedright { padding: 0 10px; text-align: right; }
+
+.lightheader { background-color: lightgreen; }
+.lightheader2 { background-color: lightblue; }
+.boldheader  { background-color: lime; }
+
+
+</style>
+<title>Helix QAC Rule Compliance Report</title>
+</head>
+  <div id="head">
+   <div class="ptitle"><h2>Helix QAC Rule Compliance Report</h2></div>
+   <div class="stitle"><h4><i>This report was generated using Helix QAC and is the Intellectual Property of Programming Research Limited.</i></h4></div>
+   <div class="stitle">Project&nbsp;&nbsp;&nbsp;: C:/Users/AUTOSAR/Desktop/QAC_Lab01<br/>Status at&nbsp;: 23 Oct, 2025 at 16:42:28</div>
+   <div class="headcontent">
+    <div class="toc">
+       <ul>
+        <li>Enabled Rules<ol>
+        <li><a href="#DiagsPerParents1">Diagnostics Per Parent Rules</a></li>
+        <li><a href="#WorstRules1">Most Violated Rules</a></li>
+        </ol></li>
+        <li>Disabled Rules<ol>
+        <li><a href="#DiagsPerParents2">Diagnostics Per Parent Rules</a></li>
+        <li><a href="#WorstRules2">Most Violated Rules</a></li>
+        </ol></li>
+        <li>General<ol>
+        <li><a href="#FileStatus">File Status</a></li>
+        <li><a href="#AnalysisSettings">Analysis Settings</a></li>
+        <li><a href="#RCFInfo">Rule Configuration Status</a></li>
+        <li><a href="#StatCalc">Calculation Information</a></li>
+        </ol></li>
+       </ul>
+    </div>
+    <div class="summary">
+    <h3>Summary for Enabled Rules</h3>
+     <table border="0">
+      <col border="50"/>
+      <tr><td>Number of Files</td><td>62</td></tr>
+      <tr><td>Lines of Code (including headers)</td><td>21275</td></tr>
+      <tr><td>Total preprocessed code lines (STTLN)</td><td>6485</td></tr>
+      <tr><td>Diagnostic Count</td><td>18485</td></tr>
+      <tr><td>Rule Violation Count</td><td>18485</td></tr>
+      <tr><td>Violated Rules</td><td>52</td></tr>
+      <tr><td>Compliant Rules</td><td>90</td></tr>
+      <tr><td>File Compliance Index</td><td>92.59%</td></tr>
+      <tr><td>Project Compliance Index</td><td>63.38%</td></tr>
+     </table>
+    </div>
+   </div>
+  </div>
+
+  <div id="content">
+ <body>
+<h2>Diagnostics in Enabled Rule Groups</h2>
+   <div class="dpp">
+    <div class="sec"><h3><a name="DiagsPerParents1">Diagnostics Per Parent Rules</a></h3></div>
+    <p>These are the top level rules for each rule group (i.e. these rules are primary rules that are not sub-rules used to enforce parent rules).<br/>    The table presents the violation counts for each top-level rule. Note that a message may be used to enforce more than one rule. In such a case, one diagnostic will result in multiple violations (i.e. one for each rule that the message is used to enforce).<br/>    Diagnostic counts are available in <a href="#FileStatus">File Status</a> table.</p>    <div class="subsec"><h5>QAC</h5></div>
+    <div class="rgtable">
+     <table border="1" >
+      <tr><th>Files</th><th>Rule 0</th><th>Rule 1</th><th>Rule 2</th><th>Rule 3</th><th>Rule 4</th><th>Rule 5</th><th>Rule 6</th><th>Rule 7</th><th>Rule 8</th><th>Rule 9</th><td><b>Total Violations</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c">TempTestA.c</a></td><td>14</td><td>0</td><td>13</td><td>5</td><td>0</td><td>0</td><td>3</td><td>0</td><td>7</td><td>20</td><td><b>62</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h">ctypes.h</a></td><td>0</td><td>0</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>8</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c">database.c</a></td><td>0</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>10</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c">manager.c</a></td><td>0</td><td>7</td><td>99</td><td>14</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>122</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c">manager_driver.c</a></td><td>1</td><td>0</td><td>66</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td><b>72</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c">whitebox.c</a></td><td>0</td><td>0</td><td>27</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>30</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c">B0000001.c</a></td><td>1</td><td>28</td><td>930</td><td>18</td><td>0</td><td>4</td><td>10</td><td>0</td><td>0</td><td>1</td><td><b>992</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h">B0000001.h</a></td><td>0</td><td>1</td><td>50</td><td>0</td><td>0</td><td>0</td><td>66</td><td>2</td><td>0</td><td>2</td><td><b>121</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c">B0000002.c</a></td><td>1</td><td>67</td><td>1908</td><td>41</td><td>0</td><td>7</td><td>22</td><td>1</td><td>3</td><td>2</td><td><b>2052</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c">B0000004.c</a></td><td>1</td><td>0</td><td>23</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td><b>27</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c">B0000007.c</a></td><td>35</td><td>9</td><td>725</td><td>29</td><td>0</td><td>0</td><td>50</td><td>37</td><td>63</td><td>29</td><td><b>977</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c">B0000008.c</a></td><td>1</td><td>7</td><td>277</td><td>7</td><td>0</td><td>0</td><td>12</td><td>0</td><td>0</td><td>0</td><td><b>304</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c">B1_switch.c</a></td><td>1</td><td>0</td><td>78</td><td>2</td><td>0</td><td>0</td><td>6</td><td>0</td><td>0</td><td>0</td><td><b>87</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h">B1_switch.h</a></td><td>0</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td><b>11</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c">B4_switch.c</a></td><td>1</td><td>0</td><td>25</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td><b>30</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h">B4_switch.h</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td><b>5</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c">HeapAndStackMonitor.c</a></td><td>0</td><td>0</td><td>15</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>15</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c">I0000009.c</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h">S0000002.h</a></td><td>2</td><td>0</td><td>164</td><td>49</td><td>0</td><td>0</td><td>318</td><td>2</td><td>0</td><td>2</td><td><b>537</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c">S0000003.c</a></td><td>1</td><td>1</td><td>65</td><td>1</td><td>0</td><td>0</td><td>9</td><td>0</td><td>0</td><td>0</td><td><b>77</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h">S0000004.h</a></td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>28</td><td>0</td><td>0</td><td>0</td><td><b>31</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h">S0000007.h</a></td><td>0</td><td>0</td><td>36</td><td>2</td><td>0</td><td>0</td><td>74</td><td>4</td><td>1</td><td>0</td><td><b>117</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c">S0000008.c</a></td><td>0</td><td>0</td><td>24</td><td>6</td><td>0</td><td>0</td><td>11</td><td>0</td><td>0</td><td>0</td><td><b>41</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h">S0000008.h</a></td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td><b>8</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c">S0000008.tu.c</a></td><td>0</td><td>0</td><td>29</td><td>0</td><td>0</td><td>0</td><td>6</td><td>1</td><td>0</td><td>0</td><td><b>36</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c">S0000009.c</a></td><td>1</td><td>0</td><td>31</td><td>1</td><td>0</td><td>0</td><td>11</td><td>0</td><td>0</td><td>3</td><td><b>47</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h">S0000009.h</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>0</td><td><b>6</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h">S3_extensions.h</a></td><td>0</td><td>1</td><td>24</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td><b>28</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c">S3_switch.c</a></td><td>1</td><td>0</td><td>13</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td><b>17</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h">S3_switch.h</a></td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td><b>5</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h">S3_target_declarations.h</a></td><td>0</td><td>0</td><td>60</td><td>8</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td><b>73</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h">S3_target_initialization.h</a></td><td>0</td><td>0</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>10</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c">USER_GLOBALS_VCAST_uc.c</a></td><td>5</td><td>0</td><td>41</td><td>9</td><td>0</td><td>0</td><td>11</td><td>0</td><td>4</td><td>5</td><td><b>75</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h">VCAST_STRING.h</a></td><td>0</td><td>0</td><td>24</td><td>2</td><td>0</td><td>0</td><td>56</td><td>2</td><td>0</td><td>3</td><td><b>87</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h">c_cover.h</a></td><td>0</td><td>0</td><td>91</td><td>2</td><td>0</td><td>0</td><td>184</td><td>72</td><td>3</td><td>0</td><td><b>352</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c">c_cover_io.c</a></td><td>4</td><td>20</td><td>641</td><td>50</td><td>0</td><td>7</td><td>20</td><td>0</td><td>4</td><td>8</td><td><b>754</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c">manager.tu.c</a></td><td>0</td><td>7</td><td>152</td><td>5</td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td><b>170</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c">manager_appendix.c</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>1</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c">manager_driver_prefix.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c">manager_exp_inst_driver.c</a></td><td>441</td><td>47</td><td>5386</td><td>90</td><td>0</td><td>8</td><td>1995</td><td>99</td><td>821</td><td>285</td><td><b>9172</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c">manager_inst.c</a></td><td>0</td><td>7</td><td>590</td><td>16</td><td>0</td><td>2</td><td>188</td><td>72</td><td>2</td><td>0</td><td><b>877</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c">manager_inst_appendix.c</a></td><td>0</td><td>0</td><td>21</td><td>0</td><td>0</td><td>0</td><td>11</td><td>0</td><td>0</td><td>0</td><td><b>32</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c">manager_inst_prefix.c</a></td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>3</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c">manager_mod-output.c</a></td><td>0</td><td>7</td><td>152</td><td>5</td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td><b>170</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c">manager_prefix.c</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>1</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c">manager_uc.c</a></td><td>5</td><td>0</td><td>40</td><td>3</td><td>0</td><td>0</td><td>10</td><td>0</td><td>4</td><td>5</td><td><b>67</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c">manager_vcast.c</a></td><td>0</td><td>7</td><td>142</td><td>14</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>165</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h">vcast_basics.h</a></td><td>0</td><td>0</td><td>82</td><td>1</td><td>0</td><td>0</td><td>194</td><td>2</td><td>0</td><td>0</td><td><b>279</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h">vcast_c_options.h</a></td><td>0</td><td>0</td><td>15</td><td>1</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td><b>20</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c">vcast_configure_stub.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h">vcast_env_defines.h</a></td><td>0</td><td>0</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td><b>7</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c">vcast_preprocess.11216.1000.c</a></td><td>0</td><td>0</td><td>25</td><td>0</td><td>0</td><td>0</td><td>6</td><td>1</td><td>0</td><td>0</td><td><b>32</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c">vcast_preprocess.11216.1001.c</a></td><td>0</td><td>0</td><td>29</td><td>0</td><td>0</td><td>0</td><td>6</td><td>1</td><td>0</td><td>0</td><td><b>36</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c">vcast_preprocess.11216.1003.c</a></td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>0</td><td><b>12</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c">vcast_preprocess.11216.1008.c</a></td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>0</td><td><b>12</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c">vcast_preprocess.11216.1011.c</a></td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>0</td><td><b>12</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c">vcast_preprocess.11216.1016.c</a></td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>0</td><td><b>12</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c">vcast_stubs_8.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c">vcast_stubs_9.c</a></td><td>7</td><td>2</td><td>62</td><td>7</td><td>0</td><td>0</td><td>9</td><td>2</td><td>6</td><td>4</td><td><b>99</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h">vcast_ti_decls_8.h</a></td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td><b>10</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h">vcast_uc_prototypes.h</a></td><td>0</td><td>0</td><td>31</td><td>0</td><td>0</td><td>0</td><td>23</td><td>0</td><td>0</td><td>0</td><td><b>54</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h">vcast_undef_8.h</a></td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>8</b></td></tr>
+<tr><td><b>Total Violations</b></td><td><b>524</b></td><td><b>218</b></td><td><b>12311</b></td><td><b>400</b></td><td><b>0</b></td><td><b>36</b></td><td><b>3385</b></td><td><b>318</b></td><td><b>921</b></td><td><b>372</b></td><td><b>18485</b></td></tr>
+     </table>
+    </div>
+<br/><center>Share of total violations (per parent rule)</center>
+<svg width="1000" height="400"><path d="M200 200 L357.476 171.694 A160 160 0 0 1 360 200 z" style="fill: red; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="30" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: red"/><text x="570" y="45" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 0 (2.83)</text><path d="M200 200 L354.946 160.104 A160 160 0 0 1 357.476 171.694 z" style="fill: lime; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="60" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: lime"/><text x="570" y="75" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 1 (1.18)</text><path d="M200 200 L156.561 353.99 A160 160 0 1 1 354.946 160.104 z" style="fill: navy; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="90" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: navy"/><text x="570" y="105" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 2 (66.60)</text><path d="M200 200 L177.8 358.452 A160 160 0 0 1 156.561 353.99 z" style="fill: fuchsia; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="120" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: fuchsia"/><text x="570" y="135" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 3 (2.16)</text><path d="M200 200 L177.8 358.452 A160 160 0 0 1 177.8 358.452 z" style="fill: olive; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="150" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: olive"/><text x="570" y="165" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 4 (0.00)</text><path d="M200 200 L179.693 358.706 A160 160 0 0 1 177.8 358.452 z" style="fill: aqua; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="180" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: aqua"/><text x="570" y="195" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 5 (0.19)</text><path d="M200 200 L336.623 283.272 A160 160 0 0 1 179.693 358.706 z" style="fill: maroon; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="210" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: maroon"/><text x="570" y="225" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 6 (18.31)</text><path d="M200 200 L344.809 268.046 A160 160 0 0 1 336.623 283.272 z" style="fill: yellow; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="240" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: yellow"/><text x="570" y="255" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 7 (1.72)</text><path d="M200 200 L358.725 220.157 A160 160 0 0 1 344.809 268.046 z" style="fill: blue; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="270" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: blue"/><text x="570" y="285" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 8 (4.98)</text><path d="M200 200 L360 200 A160 160 0 0 1 358.725 220.157 z" style="fill: purple; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="300" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: purple"/><text x="570" y="315" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 9 (2.01)</text></svg>   </div>
+   <div class="worstrules">
+    <div class="sec"><h3><a name="WorstRules1">Most Violated Rules</a></h3></div>
+    <p>These are the most violated rules that are directly enforced (i.e. these rules have messages directly mapped to them and are not being enforced solely by sub-rules).<br/>    Again, the table presents the violation counts. Note that a message may be used to enforce more than one rule. In such a case, one diagnostic will result in multiple violations (i.e. one for each rule that the message is used to enforce).<br/>    Diagnostic counts are available in <a href="#FileStatus">File Status</a> table.</p>    <div class="subsec"><h5>QAC</h5></div>
+    <div class="rgtable">
+     <table border="1" >
+      <tr><th>Files</th><th>Rule 2.18</th><th>Rule 0.4</th><th>Rule 2.24</th><th>Rule 2.13</th><th>Rule 8.1</th><th>Rule 6.4</th><th>Rule 6.1</th><th>Rule 2.9</th><th>Rule 2.16</th></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c">TempTestA.c</a></td><td>0</td><td>13</td><td>0</td><td>2</td><td>7</td><td>0</td><td>3</td><td>3</td><td>8</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h">ctypes.h</a></td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c">database.c</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c">manager.c</a></td><td>1</td><td>0</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>27</td><td>20</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c">manager_driver.c</a></td><td>12</td><td>0</td><td>0</td><td>14</td><td>0</td><td>0</td><td>0</td><td>21</td><td>6</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c">whitebox.c</a></td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>7</td><td>11</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c">B0000001.c</a></td><td>4</td><td>0</td><td>34</td><td>105</td><td>0</td><td>0</td><td>8</td><td>370</td><td>79</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h">B0000001.h</a></td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>3</td><td>63</td><td>0</td><td>18</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c">B0000002.c</a></td><td>40</td><td>0</td><td>53</td><td>156</td><td>3</td><td>0</td><td>16</td><td>621</td><td>269</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c">B0000004.c</a></td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>3</td><td>11</td><td>3</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c">B0000007.c</a></td><td>29</td><td>34</td><td>102</td><td>30</td><td>63</td><td>0</td><td>48</td><td>197</td><td>196</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c">B0000008.c</a></td><td>1</td><td>0</td><td>15</td><td>39</td><td>0</td><td>0</td><td>12</td><td>111</td><td>37</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c">B1_switch.c</a></td><td>4</td><td>0</td><td>1</td><td>12</td><td>0</td><td>0</td><td>6</td><td>44</td><td>12</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h">B1_switch.h</a></td><td>5</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c">B4_switch.c</a></td><td>4</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>4</td><td>12</td><td>6</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h">B4_switch.h</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c">HeapAndStackMonitor.c</a></td><td>0</td><td>0</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c">I0000009.c</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h">S0000002.h</a></td><td>13</td><td>2</td><td>5</td><td>7</td><td>0</td><td>0</td><td>318</td><td>0</td><td>97</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c">S0000003.c</a></td><td>0</td><td>0</td><td>4</td><td>2</td><td>0</td><td>0</td><td>8</td><td>26</td><td>3</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h">S0000004.h</a></td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>28</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h">S0000007.h</a></td><td>5</td><td>0</td><td>6</td><td>0</td><td>1</td><td>0</td><td>74</td><td>0</td><td>18</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c">S0000008.c</a></td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>11</td><td>0</td><td>20</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h">S0000008.h</a></td><td>0</td><td>0</td><td>6</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c">S0000008.tu.c</a></td><td>0</td><td>0</td><td>5</td><td>2</td><td>0</td><td>0</td><td>6</td><td>0</td><td>20</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c">S0000009.c</a></td><td>0</td><td>0</td><td>21</td><td>0</td><td>0</td><td>0</td><td>11</td><td>0</td><td>2</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h">S0000009.h</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h">S3_extensions.h</a></td><td>0</td><td>0</td><td>5</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c">S3_switch.c</a></td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>8</td><td>3</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h">S3_switch.h</a></td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h">S3_target_declarations.h</a></td><td>5</td><td>0</td><td>23</td><td>2</td><td>0</td><td>0</td><td>5</td><td>0</td><td>3</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h">S3_target_initialization.h</a></td><td>0</td><td>0</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c">USER_GLOBALS_VCAST_uc.c</a></td><td>5</td><td>4</td><td>2</td><td>0</td><td>4</td><td>0</td><td>11</td><td>16</td><td>8</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h">VCAST_STRING.h</a></td><td>1</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>56</td><td>0</td><td>17</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h">c_cover.h</a></td><td>2</td><td>0</td><td>7</td><td>0</td><td>3</td><td>0</td><td>180</td><td>0</td><td>73</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c">c_cover_io.c</a></td><td>28</td><td>3</td><td>77</td><td>47</td><td>4</td><td>0</td><td>18</td><td>83</td><td>109</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c">manager.tu.c</a></td><td>1</td><td>0</td><td>9</td><td>11</td><td>0</td><td>0</td><td>2</td><td>49</td><td>26</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c">manager_appendix.c</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c">manager_driver_prefix.c</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c">manager_exp_inst_driver.c</a></td><td>191</td><td>440</td><td>194</td><td>189</td><td>821</td><td>1363</td><td>616</td><td>911</td><td>3359</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c">manager_inst.c</a></td><td>49</td><td>0</td><td>10</td><td>55</td><td>2</td><td>0</td><td>184</td><td>138</td><td>186</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c">manager_inst_appendix.c</a></td><td>0</td><td>0</td><td>3</td><td>2</td><td>0</td><td>0</td><td>11</td><td>0</td><td>8</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c">manager_inst_prefix.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c">manager_mod-output.c</a></td><td>1</td><td>0</td><td>9</td><td>11</td><td>0</td><td>0</td><td>2</td><td>49</td><td>26</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c">manager_prefix.c</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c">manager_uc.c</a></td><td>5</td><td>4</td><td>1</td><td>0</td><td>4</td><td>0</td><td>10</td><td>16</td><td>8</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c">manager_vcast.c</a></td><td>1</td><td>0</td><td>3</td><td>11</td><td>0</td><td>0</td><td>0</td><td>49</td><td>26</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h">vcast_basics.h</a></td><td>7</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>194</td><td>0</td><td>61</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h">vcast_c_options.h</a></td><td>0</td><td>0</td><td>4</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>2</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c">vcast_configure_stub.c</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h">vcast_env_defines.h</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c">vcast_preprocess.11216.1000.c</a></td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>6</td><td>0</td><td>20</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c">vcast_preprocess.11216.1001.c</a></td><td>0</td><td>0</td><td>5</td><td>2</td><td>0</td><td>0</td><td>6</td><td>0</td><td>20</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c">vcast_preprocess.11216.1003.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c">vcast_preprocess.11216.1008.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c">vcast_preprocess.11216.1011.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c">vcast_preprocess.11216.1016.c</a></td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c">vcast_stubs_8.c</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c">vcast_stubs_9.c</a></td><td>11</td><td>6</td><td>15</td><td>2</td><td>6</td><td>0</td><td>9</td><td>2</td><td>18</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h">vcast_ti_decls_8.h</a></td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>5</td><td>0</td><td>2</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h">vcast_uc_prototypes.h</a></td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>23</td><td>0</td><td>30</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h">vcast_undef_8.h</a></td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+     </table>
+<br/><center>Share of total violations (most violated rules)</center><svg width="1000" height="400"><path d="M200 200 L358.303 176.759 A160 160 0 0 1 360 200 z" style="fill: red; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="30" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: red"/><text x="570" y="45" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 2.18 (2.32)</text><path d="M200 200 L351.982 149.984 A160 160 0 0 1 358.303 176.759 z" style="fill: lime; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="60" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: lime"/><text x="570" y="75" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 0.4 (2.74)</text><path d="M200 200 L336.106 115.887 A160 160 0 0 1 351.982 149.984 z" style="fill: navy; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="90" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: navy"/><text x="570" y="105" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 2.24 (3.75)</text><path d="M200 200 L311.418 85.1698 A160 160 0 0 1 336.106 115.887 z" style="fill: fuchsia; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="120" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: fuchsia"/><text x="570" y="135" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 2.13 (3.93)</text><path d="M200 200 L270.661 56.4485 A160 160 0 0 1 311.418 85.1698 z" style="fill: olive; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="150" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: olive"/><text x="570" y="165" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 8.1 (4.98)</text><path d="M200 200 L198.894 40.0038 A160 160 0 0 1 270.661 56.4485 z" style="fill: aqua; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="180" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: aqua"/><text x="570" y="195" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 6.4 (7.39)</text><path d="M200 200 L99.3348 75.6356 A160 160 0 0 1 198.894 40.0038 z" style="fill: maroon; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="210" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: maroon"/><text x="570" y="225" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 6.1 (10.72)</text><path d="M200 200 L40.2123 208.24 A160 160 0 0 1 99.3348 75.6356 z" style="fill: yellow; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="240" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: yellow"/><text x="570" y="255" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 2.9 (14.99)</text><path d="M200 200 L220.851 358.636 A160 160 0 0 1 40.2123 208.24 z" style="fill: blue; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="270" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: blue"/><text x="570" y="285" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Rule 2.16 (26.26)</text><path d="M200 200 L360 200 A160 160 0 0 1 220.851 358.636 z" style="fill: purple; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="300" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: purple"/><text x="570" y="315" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Other (22.92)</text></svg>    </div>
+   </div>
+<hr>
+<h2>Diagnostics in Disabled Rule Groups</h2>
+   <div class="dpp">
+    <div class="sec"><h3><a name="DiagsPerParents2">Diagnostics Per Parent Rules</a></h3></div>
+    <p>These are the top level rules for each rule group (i.e. these rules are primary rules that are not sub-rules used to enforce parent rules).<br/>    The table presents the violation counts for each top-level rule. Note that a message may be used to enforce more than one rule. In such a case, one diagnostic will result in multiple violations (i.e. one for each rule that the message is used to enforce).<br/>    Diagnostic counts are available in <a href="#FileStatus">File Status</a> table.</p>    <div class="subsec"><h5>QAC</h5></div>
+    <div class="rgtable">
+     <table border="1" >
+      <tr><th>Files</th><td><b>Total Violations</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c">TempTestA.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h">ctypes.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c">database.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c">manager.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c">manager_driver.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c">whitebox.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c">B0000001.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h">B0000001.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c">B0000002.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c">B0000004.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c">B0000007.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c">B0000008.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c">B1_switch.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h">B1_switch.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c">B4_switch.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h">B4_switch.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c">HeapAndStackMonitor.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c">I0000009.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h">S0000002.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c">S0000003.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h">S0000004.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h">S0000007.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c">S0000008.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h">S0000008.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c">S0000008.tu.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c">S0000009.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h">S0000009.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h">S3_extensions.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c">S3_switch.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h">S3_switch.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h">S3_target_declarations.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h">S3_target_initialization.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c">USER_GLOBALS_VCAST_uc.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h">VCAST_STRING.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h">c_cover.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c">c_cover_io.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c">manager.tu.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c">manager_appendix.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c">manager_driver_prefix.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c">manager_exp_inst_driver.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c">manager_inst.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c">manager_inst_appendix.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c">manager_inst_prefix.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c">manager_mod-output.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c">manager_prefix.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c">manager_uc.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c">manager_vcast.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h">vcast_basics.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h">vcast_c_options.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c">vcast_configure_stub.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h">vcast_env_defines.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c">vcast_preprocess.11216.1000.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c">vcast_preprocess.11216.1001.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c">vcast_preprocess.11216.1003.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c">vcast_preprocess.11216.1008.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c">vcast_preprocess.11216.1011.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c">vcast_preprocess.11216.1016.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c">vcast_stubs_8.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c">vcast_stubs_9.c</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h">vcast_ti_decls_8.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h">vcast_uc_prototypes.h</a></td><td><b>0</b></td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h">vcast_undef_8.h</a></td><td><b>0</b></td></tr>
+<tr><td><b>Total Violations</b></td><td><b>0</b></td></tr>
+     </table>
+    </div>
+<br/><center>Share of total violations (per parent rule)</center>
+<svg width="1000" height="400"></svg>   </div>
+   <div class="worstrules">
+    <div class="sec"><h3><a name="WorstRules2">Most Violated Rules</a></h3></div>
+    <p>These are the most violated rules that are directly enforced (i.e. these rules have messages directly mapped to them and are not being enforced solely by sub-rules).<br/>    Again, the table presents the violation counts. Note that a message may be used to enforce more than one rule. In such a case, one diagnostic will result in multiple violations (i.e. one for each rule that the message is used to enforce).<br/>    Diagnostic counts are available in <a href="#FileStatus">File Status</a> table.</p>    <div class="subsec"><h5>QAC</h5></div>
+    <div class="rgtable">
+     <table border="1" >
+      <tr><th>Files</th></tr>
+     </table>
+<br/><center>Share of total violations (most violated rules)</center><svg width="1000" height="400"><path d="M200 200 L360 200.279 A160 160 0 1 1 360 200 z" style="fill: red; fill-opacity: 1; stroke: black; stroke-width: 1"/><rect x="535" y="30" width="30" height="20" style="stroke-linejoin: miter; stroke-width: 1; stroke: black; fill: red"/><text x="570" y="45" style="font-family arial, sans-serif; font-size: 14; fill black; stroke none">Other (100.00)</text></svg>    </div>
+   </div>
+<hr>
+<h2>General</h2>
+   <div class="analstat">
+    <div class="sec"><h3><a name="FileStatus">File Status</a></h3></div>
+    <p>Active Diagnostics refers to diagnostics that are not suppressed (note: no suppressed diagnostics have been taken into account for the calculation of information in this document).</p>    <p>The counts in the table below are representative of the sum of enabled and disabled rules.</p>    <p>Analysis Status as of: 23 Oct, 2025 at 16:42:28</p>     <table border="1" id="filestat" class="tablesorter">
+<thead>
+     <tr><th>Files</th><th>Active Diagnostics</th><th>Violated Rules</th><th>Violation Count</th><th>Compliance Index</th></tr>
+</thead>
+<tbody>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c">B0000001.c</a></td><td align="right">992</td><td align="right">32</td><td align="right">992</td><td align="right">77.46%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c">B0000002.c</a></td><td align="right">2052</td><td align="right">38</td><td align="right">2052</td><td align="right">73.24%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c">B0000004.c</a></td><td align="right">27</td><td align="right">7</td><td align="right">27</td><td align="right">95.07%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c">B0000007.c</a></td><td align="right">977</td><td align="right">35</td><td align="right">977</td><td align="right">75.35%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c">B0000008.c</a></td><td align="right">304</td><td align="right">24</td><td align="right">304</td><td align="right">83.10%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c">B1_switch.c</a></td><td align="right">87</td><td align="right">12</td><td align="right">87</td><td align="right">91.55%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c">B4_switch.c</a></td><td align="right">30</td><td align="right">7</td><td align="right">30</td><td align="right">95.07%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c">HeapAndStackMonitor.c</a></td><td align="right">15</td><td align="right">2</td><td align="right">15</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c">I0000009.c</a></td><td align="right">2</td><td align="right">2</td><td align="right">2</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c">S0000003.c</a></td><td align="right">77</td><td align="right">15</td><td align="right">77</td><td align="right">89.44%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c">S0000008.c</a></td><td align="right">41</td><td align="right">5</td><td align="right">41</td><td align="right">96.48%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c">S0000008.tu.c</a></td><td align="right">36</td><td align="right">6</td><td align="right">36</td><td align="right">95.77%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c">S0000009.c</a></td><td align="right">47</td><td align="right">8</td><td align="right">47</td><td align="right">94.37%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c">S3_switch.c</a></td><td align="right">17</td><td align="right">7</td><td align="right">17</td><td align="right">95.07%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c">TempTestA.c</a></td><td align="right">62</td><td align="right">11</td><td align="right">62</td><td align="right">92.25%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c">USER_GLOBALS_VCAST_uc.c</a></td><td align="right">75</td><td align="right">13</td><td align="right">75</td><td align="right">90.85%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c">c_cover_io.c</a></td><td align="right">754</td><td align="right">37</td><td align="right">754</td><td align="right">73.94%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c">database.c</a></td><td align="right">10</td><td align="right">2</td><td align="right">10</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c">manager.c</a></td><td align="right">122</td><td align="right">21</td><td align="right">122</td><td align="right">85.21%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c">manager.tu.c</a></td><td align="right">170</td><td align="right">24</td><td align="right">170</td><td align="right">83.10%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c">manager_appendix.c</a></td><td align="right">1</td><td align="right">1</td><td align="right">1</td><td align="right">99.30%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c">manager_driver.c</a></td><td align="right">72</td><td align="right">13</td><td align="right">72</td><td align="right">90.85%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c">manager_driver_prefix.c</a></td><td align="right">2</td><td align="right">2</td><td align="right">2</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c">manager_exp_inst_driver.c</a></td><td align="right">9172</td><td align="right">44</td><td align="right">9172</td><td align="right">69.01%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c">manager_inst.c</a></td><td align="right">877</td><td align="right">29</td><td align="right">877</td><td align="right">79.58%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c">manager_inst_appendix.c</a></td><td align="right">32</td><td align="right">5</td><td align="right">32</td><td align="right">96.48%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c">manager_inst_prefix.c</a></td><td align="right">3</td><td align="right">2</td><td align="right">3</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c">manager_mod-output.c</a></td><td align="right">170</td><td align="right">24</td><td align="right">170</td><td align="right">83.10%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c">manager_prefix.c</a></td><td align="right">1</td><td align="right">1</td><td align="right">1</td><td align="right">99.30%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c">manager_uc.c</a></td><td align="right">67</td><td align="right">12</td><td align="right">67</td><td align="right">91.55%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c">manager_vcast.c</a></td><td align="right">165</td><td align="right">23</td><td align="right">165</td><td align="right">83.80%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c">vcast_configure_stub.c</a></td><td align="right">2</td><td align="right">2</td><td align="right">2</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c">vcast_preprocess.11216.1000.c</a></td><td align="right">32</td><td align="right">6</td><td align="right">32</td><td align="right">95.77%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c">vcast_preprocess.11216.1001.c</a></td><td align="right">36</td><td align="right">6</td><td align="right">36</td><td align="right">95.77%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c">vcast_preprocess.11216.1003.c</a></td><td align="right">12</td><td align="right">4</td><td align="right">12</td><td align="right">97.18%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c">vcast_preprocess.11216.1008.c</a></td><td align="right">12</td><td align="right">4</td><td align="right">12</td><td align="right">97.18%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c">vcast_preprocess.11216.1011.c</a></td><td align="right">12</td><td align="right">4</td><td align="right">12</td><td align="right">97.18%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c">vcast_preprocess.11216.1016.c</a></td><td align="right">12</td><td align="right">4</td><td align="right">12</td><td align="right">97.18%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c">vcast_stubs_8.c</a></td><td align="right">2</td><td align="right">2</td><td align="right">2</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c">vcast_stubs_9.c</a></td><td align="right">99</td><td align="right">18</td><td align="right">99</td><td align="right">87.32%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c">whitebox.c</a></td><td align="right">30</td><td align="right">8</td><td align="right">30</td><td align="right">94.37%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.h">B0000001.h</a></td><td align="right">121</td><td align="right">9</td><td align="right">121</td><td align="right">93.66%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.h">B1_switch.h</a></td><td align="right">11</td><td align="right">4</td><td align="right">11</td><td align="right">97.18%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.h">B4_switch.h</a></td><td align="right">5</td><td align="right">3</td><td align="right">5</td><td align="right">97.89%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000002.h">S0000002.h</a></td><td align="right">537</td><td align="right">16</td><td align="right">537</td><td align="right">88.73%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000004.h">S0000004.h</a></td><td align="right">31</td><td align="right">2</td><td align="right">31</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000007.h">S0000007.h</a></td><td align="right">117</td><td align="right">9</td><td align="right">117</td><td align="right">93.66%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.h">S0000008.h</a></td><td align="right">8</td><td align="right">3</td><td align="right">8</td><td align="right">97.89%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.h">S0000009.h</a></td><td align="right">6</td><td align="right">3</td><td align="right">6</td><td align="right">97.89%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_extensions.h">S3_extensions.h</a></td><td align="right">28</td><td align="right">9</td><td align="right">28</td><td align="right">93.66%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.h">S3_switch.h</a></td><td align="right">5</td><td align="right">3</td><td align="right">5</td><td align="right">97.89%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_declarations.h">S3_target_declarations.h</a></td><td align="right">73</td><td align="right">15</td><td align="right">73</td><td align="right">89.44%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_target_initialization.h">S3_target_initialization.h</a></td><td align="right">10</td><td align="right">2</td><td align="right">10</td><td align="right">98.59%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\VCAST_STRING.h">VCAST_STRING.h</a></td><td align="right">87</td><td align="right">9</td><td align="right">87</td><td align="right">93.66%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover.h">c_cover.h</a></td><td align="right">352</td><td align="right">10</td><td align="right">352</td><td align="right">92.96%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\ctypes.h">ctypes.h</a></td><td align="right">8</td><td align="right">4</td><td align="right">8</td><td align="right">97.18%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_basics.h">vcast_basics.h</a></td><td align="right">279</td><td align="right">9</td><td align="right">279</td><td align="right">93.66%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_c_options.h">vcast_c_options.h</a></td><td align="right">20</td><td align="right">9</td><td align="right">20</td><td align="right">93.66%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_env_defines.h">vcast_env_defines.h</a></td><td align="right">7</td><td align="right">3</td><td align="right">7</td><td align="right">97.89%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_ti_decls_8.h">vcast_ti_decls_8.h</a></td><td align="right">10</td><td align="right">4</td><td align="right">10</td><td align="right">97.18%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_uc_prototypes.h">vcast_uc_prototypes.h</a></td><td align="right">54</td><td align="right">3</td><td align="right">54</td><td align="right">97.89%</td></tr>
+<tr><td align="left"><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_undef_8.h">vcast_undef_8.h</a></td><td align="right">8</td><td align="right">1</td><td align="right">8</td><td align="right">99.30%</td></tr>
+<tr><td><b>Total</b></td><td align="right"><b>18485</b></td><td></td><td align="right"><b>18485</b></td><td align="right"><b>92.59%</b></td></tr>
+     </tbody>
+</table>
+   </div>
+   <div class="analsettings">
+    <div class="sec"><h3><a name="AnalysisSettings">Analysis Settings</a></h3></div>
+     <table border="1" >
+<thead>
+     <tr><th>Analyzed File</th><th class="padded">Settings File 1</th></tr>
+</thead>
+<tbody>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\TempTestA.c">TempTestA.c</a></td><td class="padded"><a href="..\output\c-f9e315658491024e12e0\TempTestA.c.qac.via" title="..\output\c-f9e315658491024e12e0\TempTestA.c.qac.via">TempTestA.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\database.c">database.c</a></td><td class="padded"><a href="..\output\c-f9e315658491024e12e0\database.c.qac.via" title="..\output\c-f9e315658491024e12e0\database.c.qac.via">database.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager.c">manager.c</a></td><td class="padded"><a href="..\output\c-f9e315658491024e12e0\manager.c.qac.via" title="..\output\c-f9e315658491024e12e0\manager.c.qac.via">manager.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\manager_driver.c">manager_driver.c</a></td><td class="padded"><a href="..\output\c-f9e315658491024e12e0\manager_driver.c.qac.via" title="..\output\c-f9e315658491024e12e0\manager_driver.c.qac.via">manager_driver.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\c\whitebox.c">whitebox.c</a></td><td class="padded"><a href="..\output\c-f9e315658491024e12e0\whitebox.c.qac.via" title="..\output\c-f9e315658491024e12e0\whitebox.c.qac.via">whitebox.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000001.c">B0000001.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000001.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000001.c.qac.via">B0000001.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000002.c">B0000002.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000002.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000002.c.qac.via">B0000002.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000004.c">B0000004.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000004.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000004.c.qac.via">B0000004.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000007.c">B0000007.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000007.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000007.c.qac.via">B0000007.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B0000008.c">B0000008.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000008.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\B0000008.c.qac.via">B0000008.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B1_switch.c">B1_switch.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\B1_switch.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\B1_switch.c.qac.via">B1_switch.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\B4_switch.c">B4_switch.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\B4_switch.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\B4_switch.c.qac.via">B4_switch.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\HeapAndStackMonitor.c">HeapAndStackMonitor.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\HeapAndStackMonitor.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\HeapAndStackMonitor.c.qac.via">HeapAndStackMonitor.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\I0000009.c">I0000009.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\I0000009.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\I0000009.c.qac.via">I0000009.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000003.c">S0000003.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000003.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000003.c.qac.via">S0000003.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.c">S0000008.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000008.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000008.c.qac.via">S0000008.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000008.tu.c">S0000008.tu.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000008.tu.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000008.tu.c.qac.via">S0000008.tu.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S0000009.c">S0000009.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000009.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\S0000009.c.qac.via">S0000009.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\S3_switch.c">S3_switch.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\S3_switch.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\S3_switch.c.qac.via">S3_switch.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\USER_GLOBALS_VCAST_uc.c">USER_GLOBALS_VCAST_uc.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\USER_GLOBALS_VCAST_uc.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\USER_GLOBALS_VCAST_uc.c.qac.via">USER_GLOBALS_VCAST_uc.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\c_cover_io.c">c_cover_io.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\c_cover_io.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\c_cover_io.c.qac.via">c_cover_io.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager.tu.c">manager.tu.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager.tu.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager.tu.c.qac.via">manager.tu.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_appendix.c">manager_appendix.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_appendix.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_appendix.c.qac.via">manager_appendix.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_driver_prefix.c">manager_driver_prefix.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_driver_prefix.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_driver_prefix.c.qac.via">manager_driver_prefix.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_exp_inst_driver.c">manager_exp_inst_driver.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_exp_inst_driver.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_exp_inst_driver.c.qac.via">manager_exp_inst_driver.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst.c">manager_inst.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst.c.qac.via">manager_inst.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_appendix.c">manager_inst_appendix.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst_appendix.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst_appendix.c.qac.via">manager_inst_appendix.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_inst_prefix.c">manager_inst_prefix.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst_prefix.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_inst_prefix.c.qac.via">manager_inst_prefix.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_mod-output.c">manager_mod-output.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_mod-output.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_mod-output.c.qac.via">manager_mod-output.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_prefix.c">manager_prefix.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_prefix.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_prefix.c.qac.via">manager_prefix.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_uc.c">manager_uc.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_uc.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_uc.c.qac.via">manager_uc.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\manager_vcast.c">manager_vcast.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_vcast.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\manager_vcast.c.qac.via">manager_vcast.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_configure_stub.c">vcast_configure_stub.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_configure_stub.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_configure_stub.c.qac.via">vcast_configure_stub.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1000.c">vcast_preprocess.11216.1000.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1000.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1000.c.qac.via">vcast_preprocess.11216.1000.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1001.c">vcast_preprocess.11216.1001.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1001.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1001.c.qac.via">vcast_preprocess.11216.1001.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1003.c">vcast_preprocess.11216.1003.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1003.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1003.c.qac.via">vcast_preprocess.11216.1003.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1008.c">vcast_preprocess.11216.1008.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1008.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1008.c.qac.via">vcast_preprocess.11216.1008.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1011.c">vcast_preprocess.11216.1011.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1011.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1011.c.qac.via">vcast_preprocess.11216.1011.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_preprocess.11216.1016.c">vcast_preprocess.11216.1016.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1016.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_preprocess.11216.1016.c.qac.via">vcast_preprocess.11216.1016.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_8.c">vcast_stubs_8.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_stubs_8.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_stubs_8.c.qac.via">vcast_stubs_8.c.qac.via</a></td></tr>
+     <tr><td><a href="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c" title="..\..\..\..\..\..\Downloads\vectorcast_lab01-main\lab01\build\1055443575\UNIT_TESTS\vcast_stubs_9.c">vcast_stubs_9.c</a></td><td class="padded"><a href="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_stubs_9.c.qac.via" title="..\output\UNIT_TESTS-d69035f4d04154a4db60\vcast_stubs_9.c.qac.via">vcast_stubs_9.c.qac.via</a></td></tr>
+     </tbody>
+</table>
+   </div>
+   <div class="rcfinfo">
+    <div class="sec"><h3><a name="RCFInfo">Rule Configuration Status</a></h3></div>
+    <div class="subsec"><h5>QAC</h5></div>
+     <table border="0">
+<tr><td></td><td title="Information">0</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Information Messages">0.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Annotations">0.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Information">0.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Parsing recovery">0.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow recovery">0.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Context Messages">0.6</td><td>enabled</td></tr>
+<tr><td></td><td title="Obsolete Messages">1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Conversion to signed">1.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Conversion to unsigned">1.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Shift operations">1.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Overflow and wraparound">1.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Arrays">1.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Unset data">1.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - NULL pointers">1.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Redundancy">1.8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Invariant operations">1.9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow - Control flow">1.10</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Implicit conversions">1.11</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Complex expressions">1.12</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Enum types">1.13</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Operations">1.14</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Miscellaneous">1.15</td><td>enabled</td></tr>
+<tr><td></td><td title="Minor">2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arrays, structures, unions and bit-fields">2.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Assignment">2.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Balancing">2.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Casts">2.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Composite expressions">2.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Integral promotion">2.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Operands">2.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Operations">2.8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Bracing and Indentation">2.9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="C++ compatibility">2.10</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Declaration Standards">2.11</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Maintenance Warnings">2.12</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Constants">2.13</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Concurrency">2.14</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Control flow">2.15</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Declarations and Definitions">2.16</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Enumerations">2.17</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Functions">2.18</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Identifiers">2.19</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="K&R compatibility">2.20</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Macro Definition">2.21</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Metric thresholds">2.22</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Pointers">2.23</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Preprocessing">2.24</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Readability">2.25</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Redundancy">2.26</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Side Effects">2.27</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Switch statements">2.28</td><td>enabled</td></tr>
+<tr><td></td><td title="Major">3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Assignment">3.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Balancing">3.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Casts">3.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Operands">3.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arithmetic type - Operations">3.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Concurrency">3.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Declarations and definitions">3.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Functions">3.8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Pointers">3.9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Preprocessing">3.10</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Redundancy">3.11</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Switch statements">3.12</td><td>enabled</td></tr>
+<tr><td></td><td title="Local Standards">4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Local Standards">4.1</td><td>enabled</td></tr>
+<tr><td></td><td title="Dataflow Analysis">5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to signed">5.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to unsigned">5.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to floating point">5.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Shift operations">5.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Overflow and wraparound">5.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arrays">5.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Pointers">5.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="NULL pointers">5.8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Unset data">5.9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Redundancy">5.10</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Resources">5.11</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Invariant operations">5.12</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Control flow">5.13</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Threading Issues">5.14</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Resource Issues">5.15</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Cross Module Threading Issues">5.16</td><td>enabled</td></tr>
+<tr><td></td><td title="Portability">6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C90 Conformance limits">6.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C99 Conformance limits">6.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Implementation defined">6.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Language Extension">6.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Language extension warnings">6.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C99 Language features">6.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C11 Language features">6.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C23 Language features">6.8</td><td>enabled</td></tr>
+<tr><td></td><td title="Undefined Behavior">7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Semantic Warnings">7.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Explicitly undefined">7.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Implicitly undefined">7.3</td><td>enabled</td></tr>
+<tr><td></td><td title="Language Constraints">8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Constraint violations">8.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Language extension constraint violations">8.2</td><td>enabled</td></tr>
+<tr><td></td><td title="Errors">9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="QAC configuration">9.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Syntax errors">9.2</td><td>enabled</td></tr>
+     </table>
+    <div class="subsec"><h5>QAC++</h5></div>
+     <table border="0">
+<tr><td></td><td title="Information">0</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Information Messages">0.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Context Messages">0.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Information">0.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Annotations">0.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow recovery">0.5</td><td>enabled</td></tr>
+<tr><td></td><td title="Style Guidelines">1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Source Layout Standards">1.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Declaration Standards">1.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Code Structure Standards">1.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Pre-processor Standards">1.4</td><td>enabled</td></tr>
+<tr><td></td><td title="Maintainability">2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Maintenance Warnings">2.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Declaration Standards">2.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Maintenance Warnings">2.3</td><td>enabled</td></tr>
+<tr><td></td><td title="C++ Language Features">3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="C++ Improvements over C">3.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Use Libraries">3.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Efficiency Notes">3.3</td><td>enabled</td></tr>
+<tr><td></td><td title="Local Standards">4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Local Standards">4.1</td><td>enabled</td></tr>
+<tr><td></td><td title="Design Problems">5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to signed">5.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to unsigned">5.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to floating point">5.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Shift operations">5.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Overflow and wraparound">5.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arrays">5.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Pointers">5.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Unset data">5.8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="NULL pointers">5.9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Redundancy">5.10</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Resources">5.11</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Control flow">5.12</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Invariant operations">5.13</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Threading Issues">5.14</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Problems">5.15</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Resource Leaks">5.16</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Exception Problems">5.17</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Behavior Problems">5.18</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Potential Problems">5.19</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Potential Resource Leaks">5.20</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Potential Exception Problems">5.21</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Preventative Measures">5.22</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Cross Module Threading Issues">5.23</td><td>enabled</td></tr>
+<tr><td></td><td title="Portability">6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Portability Problems">6.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C++ '11 Language Features">6.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C++ '14 Language Features">6.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C++ '17 Language Features">6.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C++ '20 Language Features">6.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="ISO C++ '23 Language Features">6.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Language Extensions">6.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Implementation Defined">6.8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Inline Functions">6.9</td><td>enabled</td></tr>
+<tr><td></td><td title="Complexity">7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Complexity Problems">7.1</td><td>enabled</td></tr>
+<tr><td></td><td title="ISO Standards">8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Semantic Warnings">8.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Semantic Warnings">8.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Syntax Warnings">8.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Deprecated">8.4</td><td>enabled</td></tr>
+<tr><td></td><td title="Errors">9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Semantic Errors">9.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Syntax Errors">9.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Configuration Errors">9.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Unrecoverable Errors">9.4</td><td>enabled</td></tr>
+<tr><td></td><td title="Fatal Errors">99</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Fatal Errors">99.1</td><td>enabled</td></tr>
+     </table>
+    <div class="subsec"><h5>Dataflow</h5></div>
+     <table border="0">
+<tr><td></td><td title="Information">0</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Information Messages">0.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Context Messages">0.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Dataflow recovery">0.3</td><td>enabled</td></tr>
+<tr><td></td><td title="Design Problems">5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to signed">5.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to unsigned">5.2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Conversion to floating point">5.3</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Shift operations">5.4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Overflow and wraparound">5.5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Arrays">5.6</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Pointers">5.7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Unset data">5.8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="NULL pointers">5.9</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Redundancy">5.10</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Resources">5.11</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Control flow">5.12</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Invariant operations">5.13</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Threading Issues">5.14</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Problems">5.15</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Resource Leaks">5.16</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Exception Problems">5.17</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Behavior Problems">5.18</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Potential Problems">5.19</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Potential Resource Leaks">5.20</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Potential Exception Problems">5.21</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Preventative Measures">5.22</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Cross Module Threading Issues">5.23</td><td>enabled</td></tr>
+     </table>
+    <div class="subsec"><h5>RCMA</h5></div>
+     <table border="0">
+<tr><td></td><td title="Information">0</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Context Messages">0.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Information">0.2</td><td>enabled</td></tr>
+<tr><td></td><td title="Maintainability">2</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Declaration Standards">2.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Maintenance Warnings">2.2</td><td>enabled</td></tr>
+<tr><td></td><td title="Design Problems">5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Serious Resource Leaks">5.1</td><td>enabled</td></tr>
+<tr><td></td><td title="Complexity">7</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Complexity Problems">7.1</td><td>enabled</td></tr>
+<tr><td></td><td title="ISO Standards">8</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Semantic Warnings">8.1</td><td>enabled</td></tr>
+     </table>
+    <div class="subsec"><h5>MTA</h5></div>
+     <table border="0">
+<tr><td></td><td title="Information">0</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Context Messages">0.1</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="CMA Information">0.2</td><td>enabled</td></tr>
+<tr><td></td><td title="Design Problems">5</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Cross Module Threading Issues">5.1</td><td>enabled</td></tr>
+     </table>
+    <div class="subsec"><h5>NameCheck</h5></div>
+     <table border="0">
+<tr><td></td><td title="Information">0</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Context Messages">0.1</td><td>enabled</td></tr>
+<tr><td></td><td title="Local Standards">4</td><td>enabled</td></tr>
+<tr><td></td><td></td><td></td><td title="Local Standards">4.1</td><td>enabled</td></tr>
+     </table>
+   </div>
+
+<div class="statclac">
+<div class="sec"><h3><a name="StatCalc">Calculation Information</a></h3></div>
+<p>
+Note that headers in suppressed directories are ignored in the following statistics.
+<br/>
+The number of files is the number of source files in the project, plus the number of header files included by those source files.
+<br/>
+The Lines of Code is the sum of all lines in both source and header files.
+<br/>
+The total number of diagnostics is the sum of all diagnostics appearing in all files. Diagnostics in header files are only counted once, even if they are included in more than one source file.
+<br/>
+The number of violated rules is the number of rules in the project Rule Configuration File that have at least one one diagnostic appearing in the files. The number of Compliant groups is the difference between the total number of rules and the number of rules groups.
+<br/>
+Since a message can be used to enforce one or more rules in the Rule Configuration File, violation counts are not the same as diagnostic counts. Total Diagnostics is a count of atomic message instances appearing in the files, whereas one diagnostic may infringe more than one rule, possibly resulting in multiple violations. These metrics are not the same. Therefore, it is possible that violation counts may differ from diagnostic counts, depending on how the user has organised the Rule Configuration File.
+</p>
+<p>
+<b>Calculation of Compliance Index</b><br/>
+The Compliance Index is the percentage of groups which have no messages in them.
+<br/>
+For each file it is calculated as follows:
+<br/>
+<br/>
+( <i>N<sub>total</sub> - N<sub>error</sub>
+</i> ) / <i>N<sub>total</sub>
+</i> x 100
+<br/>
+<br/>
+
+<i>N<sub>total</sub>
+</i> is the total number of enforced rules (i.e. the number of rules that have at least one message mapped to it directly).
+<br/>
+
+<i>N<sub>error</sub>
+</i> is the number of rules for which messages appear in that file.
+<br/>
+The File Compliance Index is the mean of all the individual file compliances.
+<br/>
+The Project Compliance Index is calculated in a similar way but with <i>N<sub>error</sub>
+</i> as the number of rules for which messages appear in all analysed files.
+<br/>
+A high File Compliance Index and low Project Compliance Index indicates that each file violates only a small number of rules but each file violates a different rule.
+<br/>
+If the Compliance Indices are close then each file is violating more or less the same rules.
+</p>
+</div>
+  </div>
+ </body>
+</html>

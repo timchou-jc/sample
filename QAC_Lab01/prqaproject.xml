@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prqaproject xmlversion="3.0.0" qafversion="4.3.0">
+ <!-- Config file information... -->
+ <configurations>
+  <cosmetic_name name="QAC_Lab01"/>
+  <languageFamily name="C/C++"/>
+  <processMonitor>
+   <includeOptionSyntax>
+    <option string="-I"/>
+    <option string="/I"/>
+   </includeOptionSyntax>
+   <defineOptionSyntax>
+    <option string="-D"/>
+    <option string="/D"/>
+   </defineOptionSyntax>
+   <flagScript string=""/>
+   <settingsOptionSyntax>
+    <option string="@" compiler="Visual Studio" extension=".rsp" literal_quotes="no"/>
+    <option string="-@" compiler="Windriver" extension="" literal_quotes="no"/>
+    <option string="--Via" compiler="Greenhills" extension="__i" literal_quotes="no"/>
+   </settingsOptionSyntax>
+   <excludeStrings/>
+   <fileFilterStrings>
+    <option string="stdafx.c"/>
+    <option string="pch.c"/>
+   </fileFilterStrings>
+  </processMonitor>
+  <exclusionPattern method="CSV"/>
+  <root_paths>
+   <root_path path="${PROJECT_ROOT}" name="SOURCE_ROOT"/>
+  </root_paths>
+  <default_config name="Initial"/>
+  <!-- Individual Configs... -->
+  <config name="Initial">
+   <baselinedSourceRoot baseline="OFF"/>
+   <baselineSnapshot date="" id="" name=""/>
+   <acf name="default.acf"/>
+   <rcf name="default-en_US.rcf"/>
+   <ccts>
+    <cct disable_cip="yes" name="MS_VS_2022_x64_C.cct" target="C" active="yes" ignore_cip_error="yes"/>
+   </ccts>
+  </config>
+ </configurations>
+ <!-- Mapping of extension to target_language... -->
+ <file_extensions>
+  <language target="C">
+   <extension ext=".c"/>
+  </language>
+  <language target="C">
+   <extension ext=".C"/>
+  </language>
+  <language target="C++">
+   <extension ext=".cpp"/>
+  </language>
+  <language target="C++">
+   <extension ext=".cxx"/>
+  </language>
+  <language target="C++">
+   <extension ext=".cc"/>
+  </language>
+  <language target="C++">
+   <extension ext=".CPP"/>
+  </language>
+  <language target="C++">
+   <extension ext=".CXX"/>
+  </language>
+  <language target="C++">
+   <extension ext=".CC"/>
+  </language>
+ </file_extensions>
+ <!-- Files in project... -->
+ <files>
+  <!-- Explicit files... -->
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="B0000001.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="B0000002.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="B0000004.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="B0000007.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="B0000008.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="B1_switch.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="B4_switch.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="HeapAndStackMonitor.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="I0000009.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="S0000003.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="S0000008.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="S0000008.tu.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="S0000009.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="S3_switch.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="USER_GLOBALS_VCAST_uc.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="c_cover_io.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager.tu.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_appendix.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_driver_prefix.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_exp_inst_driver.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_inst.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_inst_appendix.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_inst_prefix.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_mod-output.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_prefix.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_uc.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="manager_vcast.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_configure_stub.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_preprocess.11216.1000.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_preprocess.11216.1001.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_preprocess.11216.1003.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_preprocess.11216.1008.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_preprocess.11216.1011.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_preprocess.11216.1016.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_stubs_8.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/lab01/build/1055443575/UNIT_TESTS" name="vcast_stubs_9.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c" name="TempTestA.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c" name="database.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c" name="manager.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c" name="manager_driver.c" target="C"/>
+  <file folder="C:/Users/AUTOSAR/Downloads/vectorcast_lab01-main/c" name="whitebox.c" target="C"/>
+ </files>
+</prqaproject>
